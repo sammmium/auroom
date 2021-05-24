@@ -1,0 +1,24 @@
+{
+    "name": "phpdev/auroom",
+    "description": "Login and register",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eugeny Samoilov",
+            "email": "sammmium@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twig/twig": "^2.13",
+        "slim/slim": "^4.3",
+        "slim/psr7": "^0.6.0",
+        "ext-PDO": "^7.1",
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
