@@ -1,4 +1,4 @@
 vendor/
-config/
+config/config.php
 sql/
 .idea/
